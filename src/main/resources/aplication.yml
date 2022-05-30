@@ -1,0 +1,14 @@
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/base
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: auto
+  sql:
+    init:
+      mode: always
