@@ -101,4 +101,20 @@ public class People implements Serializable {
     public void setUrl(String url) {
         this.url = url;
     }
+
+    @Override
+    public String toString() {
+        return "People{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", height=" + height +
+                ", mass=" + mass +
+                ", hairColor='" + hairColor + '\'' +
+                ", skinColor='" + skinColor + '\'' +
+                ", eyeColor='" + eyeColor + '\'' +
+                ", birthYear='" + birthYear + '\'' +
+                ", gender='" + gender + '\'' +
+                ", url='" + url + '\'' +
+                '}';
+    }
 }
